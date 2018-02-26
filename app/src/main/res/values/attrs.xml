@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatioCircleView">
+        <attr name="stroke_width" format="dimension" />
+        <attr name="gap_width" format="dimension" />
+
+        <attr name="filled_gap_color" format="color" />
+        <attr name="unfilled_gap_color" format="color" />
+        <attr name="stroke_color" format="color" />
+
+        <attr name="start_angle" format="float" />
+
+        <attr name="total" format="integer"/>
+        <attr name="covered_count" format="integer"/>
+
+        <attr name="above_text_color" format="color"/>
+        <attr name="below_text_color" format="color"/>
+        <attr name="center_text_color" format="color"/>
+        <attr name="rest_count_color" format="color"/>
+        <attr name="enable_animation" format="boolean"/>
+    </declare-styleable>
+</resources>
